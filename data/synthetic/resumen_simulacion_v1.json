@@ -1,0 +1,43 @@
+{
+  "naturaleza": "SIMULACION, NO RESULTADOS REALES",
+  "version": 1,
+  "semilla": 42,
+  "fecha_corte_inclusiva": "2025-06-29",
+  "precision_temporal": "DIA",
+  "pesos_iniciales": {
+    "habitual": 0.7,
+    "demora": 0.2,
+    "dividido": 0.1
+  },
+  "excepcion": "Pedidos divididos de una unidad pasan a demora.",
+  "supuestos": [
+    "No hay cancelaciones ni devoluciones.",
+    "Todos los pedidos se completan eventualmente.",
+    "Los pendientes solo se evalúan a la fecha de corte.",
+    "La recepción se registra el mismo día de entrega.",
+    "No se simulan entregas dañadas o rechazadas."
+  ],
+  "advertencias": [
+    "No usar eventos futuros en el análisis al corte.",
+    "No interpretar etiquetas del generador como causas.",
+    "No se han introducido errores de calidad todavía.",
+    "El CSV de cumplimiento es referencia de validación; después se reconstruirá desde eventos en SQL."
+  ],
+  "pedidos_analizados": 31465,
+  "eventos_completos": 121517,
+  "eventos_observados": 120710,
+  "escenarios_asignados": {
+    "HABITUAL": 22086,
+    "DEMORA": 7259,
+    "DIVIDIDO": 2120
+  },
+  "estados_al_corte": {
+    "COMPLETO_A_TIEMPO": 21886,
+    "COMPLETO_TARDE": 9221,
+    "PENDIENTE_VENCIDO": 33,
+    "PENDIENTE_EN_PLAZO": 325
+  },
+  "pedidos_elegibles_otif": 31031,
+  "pedidos_cumplen_otif": 21777,
+  "otif_porcentaje": 70.1782
+}

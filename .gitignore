@@ -1,0 +1,16 @@
+.venv/
+.venv_*/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+logs/
+data/runs/
+*.bak
+*.mdf
+*.ldf
+*.tmp
+~$*
+.DS_Store
+Thumbs.db

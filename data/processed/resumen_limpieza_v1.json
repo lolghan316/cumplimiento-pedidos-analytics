@@ -1,0 +1,20 @@
+{
+  "filas_entrada": 120810,
+  "filas_aceptadas": 120410,
+  "filas_cuarentena": 300,
+  "copias_retiradas": 100,
+  "normalizaciones": 200,
+  "pedidos_con_revision": 297,
+  "incidencias_por_regla": {
+    "FORMATO_FECHA": 100,
+    "CANTIDAD_NO_POSITIVA": 100,
+    "FECHA_VACIA": 100,
+    "PRODUCTO_INEXISTENTE": 100,
+    "PRODUCTO_NO_COINCIDE_CON_LINEA": 100,
+    "ESPACIOS_EventID": 100,
+    "DUPLICADO_EXACTO": 100
+  },
+  "conciliacion_filas": true,
+  "fecha_corte": "2025-06-29",
+  "nota": "Las incidencias pueden superar las filas afectadas. No se consultó la verdad de evaluación. Los pedidos con cuarentena requieren evaluar la incertidumbre antes de publicar su OTIF."
+}

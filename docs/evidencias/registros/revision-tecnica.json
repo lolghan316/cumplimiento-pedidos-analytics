@@ -1,0 +1,26 @@
+{
+  "fecha_revision": "2026-10-28",
+  "entorno": "revision aislada; sin SQL Server ni aplicaciones Microsoft",
+  "sintaxis_python": 15,
+  "procesamiento_determinista": true,
+  "csv_salida_iguales_al_original": true,
+  "resumen_json_igual_en_contenido": true,
+  "rechazo_encabezados_invalidos": true,
+  "entrada_restaurada": true,
+  "metricas_recalculadas": {
+    "pedidos": 31465,
+    "lineas": 121317,
+    "elegibles": 31031,
+    "evaluables": 30734,
+    "otif_confirmados": 21567,
+    "unidades_pendientes_vencidas": 62,
+    "estados": {
+      "COMPLETO_A_TIEMPO": 21676,
+      "INFORMACION_EN_REVISION": 297,
+      "COMPLETO_TARDE": 9134,
+      "PENDIENTE_VENCIDO": 33,
+      "PENDIENTE_EN_PLAZO": 325
+    }
+  },
+  "limites": "No se reejecutó la publicación SQL ni se recalculó Excel o Power BI."
+}

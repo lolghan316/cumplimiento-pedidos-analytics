@@ -1,0 +1,50 @@
+{
+  "execution_id": "ab6c7b3c8a454a78890158ee76f1adce",
+  "operation": "process",
+  "started_at_utc": "2026-10-28T19:35:39.976262+00:00",
+  "success": true,
+  "pipeline": {
+    "pipeline_execution_id": "ab9746ea2f154306a8a1b722804f3766",
+    "started_at_utc": "2026-10-28T19:35:40.087581+00:00",
+    "success": true,
+    "status": "YA_PUBLICADO",
+    "sql_updated": false,
+    "publication_confirmed": true,
+    "batch_id": "8e20f57bdd9d49169fc165399e0dbf57",
+    "output_directory": "data/runs/8e20f57bdd9d49169fc165399e0dbf57",
+    "summary": {
+      "filas_entrada": 120810,
+      "filas_aceptadas": 120410,
+      "filas_cuarentena": 300,
+      "copias_retiradas": 100,
+      "normalizaciones": 200,
+      "pedidos_con_revision": 297,
+      "incidencias_por_regla": {
+        "FORMATO_FECHA": 100,
+        "CANTIDAD_NO_POSITIVA": 100,
+        "FECHA_VACIA": 100,
+        "PRODUCTO_INEXISTENTE": 100,
+        "PRODUCTO_NO_COINCIDE_CON_LINEA": 100,
+        "ESPACIOS_EventID": 100,
+        "DUPLICADO_EXACTO": 100
+      },
+      "conciliacion_filas": true,
+      "fecha_corte": "2025-06-29",
+      "nota": "Las incidencias pueden superar las filas afectadas. No se consultó la verdad de evaluación. Los pedidos con cuarentena requieren evaluar la incertidumbre antes de publicar su OTIF."
+    },
+    "processing_success": true,
+    "load_id": 2,
+    "content_sha256": "41823989fb188daf0278f00dd18822d49350852df866b3de37dfe30402938c66",
+    "publication": {
+      "success": true,
+      "status": "YA_PUBLICADO",
+      "sql_updated": false,
+      "load_id": 2,
+      "batch_id": "8e20f57bdd9d49169fc165399e0dbf57",
+      "content_sha256": "41823989fb188daf0278f00dd18822d49350852df866b3de37dfe30402938c66"
+    },
+    "duration_seconds": 5.552
+  },
+  "return_code": 0,
+  "duration_seconds": 5.683
+}

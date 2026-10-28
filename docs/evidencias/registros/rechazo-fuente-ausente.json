@@ -1,0 +1,18 @@
+{
+  "execution_id": "89d2893d094d4882a941bde2c40f2f24",
+  "operation": "process",
+  "started_at_utc": "2026-10-28T19:32:20.791096+00:00",
+  "success": false,
+  "pipeline": {
+    "pipeline_execution_id": "dc133c412a354a50b019ee48356e9309",
+    "started_at_utc": "2026-10-28T19:32:20.910701+00:00",
+    "success": false,
+    "status": "FALLIDO",
+    "sql_updated": false,
+    "publication_confirmed": false,
+    "error": "13_procesar_lote.py falló: [Errno 2] No such file or directory: 'C:\\\\Users\\\\jared\\\\Downloads\\\\Paquete_inicio_cumplimiento_pedidos\\\\cumplimiento-pedidos\\\\data\\\\incoming\\\\entregas_recibidas_v1.csv'",
+    "duration_seconds": 0.139
+  },
+  "return_code": 1,
+  "duration_seconds": 0.271
+}

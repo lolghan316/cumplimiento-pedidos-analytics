@@ -1,0 +1,20 @@
+{
+  "naturaleza": "EXPERIMENTO_CONTROLADO",
+  "semilla": 2026,
+  "eventos_originales": 120710,
+  "filas_entrada": 120810,
+  "eventos_seleccionados": 600,
+  "casos_por_tipo": {
+    "DUPLICADO_EXACTO": 100,
+    "FECHA_VACIA": 100,
+    "CANTIDAD_NEGATIVA": 100,
+    "PRODUCTO_INEXISTENTE": 100,
+    "FECHA_FORMATO_ALTERNATIVO": 100,
+    "ESPACIOS_EN_IDENTIFICADOR": 100
+  },
+  "copias_adicionales": 100,
+  "sha256_origen": "ab1dd741d99ce99fe43a36bca8a238b392f2e4bd7b8a8fc5e81fa052b51b0919",
+  "sha256_entrada": "822fa70c3499ba81296529330e8b0ef703f68b6b0459d7c5304df537d5ceb63d",
+  "original_sin_modificaciones": true,
+  "nota": "El manifiesto y este resumen son para evaluación. El proceso de limpieza no debe utilizarlos para localizar ni corregir registros."
+}

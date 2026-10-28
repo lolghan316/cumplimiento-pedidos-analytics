@@ -1,0 +1,36 @@
+{
+  "alcance": "Evaluación del experimento controlado v1",
+  "casos_introducidos": 600,
+  "casos_detectados": 600,
+  "casos_por_tipo": {
+    "DUPLICADO_EXACTO": 100,
+    "FECHA_VACIA": 100,
+    "CANTIDAD_NEGATIVA": 100,
+    "PRODUCTO_INEXISTENTE": 100,
+    "FECHA_FORMATO_ALTERNATIVO": 100,
+    "ESPACIOS_EN_IDENTIFICADOR": 100
+  },
+  "alertas_esperadas": 700,
+  "alertas_observadas": 700,
+  "alertas_correctas": 700,
+  "alertas_adicionales": 0,
+  "alertas_omitidas": 0,
+  "precision_alertas": 1.0,
+  "recuperacion_alertas": 1.0,
+  "registros_aceptados": 120410,
+  "ids_aceptados_faltantes": 0,
+  "ids_aceptados_sobrantes": 0,
+  "diferencias_en_valores": 0,
+  "comprobaciones": {
+    "todos_los_casos_detectados": true,
+    "sin_alertas_adicionales": true,
+    "sin_alertas_omitidas": true,
+    "sin_alertas_repetidas": true,
+    "cuarentena_correcta": true,
+    "duplicados_correctos": true,
+    "ids_aceptados_correctos": true,
+    "valores_aceptados_correctos": true
+  },
+  "evaluacion_satisfactoria": true,
+  "limitacion": "Estos resultados solo describen los errores y registros de este experimento. No demuestran detección perfecta en datos desconocidos."
+}

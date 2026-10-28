@@ -1,0 +1,7 @@
+* text=auto
+*.csv -text
+data/**/*.json -text
+evaluation/**/*.json -text
+*.pbix binary
+*.xlsx binary
+*.png binary

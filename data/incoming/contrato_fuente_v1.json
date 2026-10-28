@@ -1,0 +1,22 @@
+{
+  "fuente": "OPERADOR_LOGISTICO_SIMULADO",
+  "version": 1,
+  "naturaleza": "DATOS_SINTETICOS",
+  "archivo": "entregas_recibidas_v1.csv",
+  "codificacion": "UTF-8 con BOM",
+  "separador": ",",
+  "formatos_fecha_admitidos": [
+    "AAAA-MM-DD",
+    "DD/MM/AAAA"
+  ],
+  "interpretacion_fecha_con_barras": "Día/mes/año, según contrato de esta fuente.",
+  "reglas": [
+    "EventID debe estar informado.",
+    "Los espacios externos en identificadores no forman parte de la clave.",
+    "Las cantidades entregadas deben ser enteros positivos.",
+    "ProductID debe existir en el maestro de productos.",
+    "Las fechas ausentes no se completan por estimación.",
+    "Duplicados exactamente iguales permiten conservar una sola aparición con trazabilidad.",
+    "Un mismo EventID con valores contradictorios requiere revisión."
+  ]
+}

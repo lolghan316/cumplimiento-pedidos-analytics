@@ -1,0 +1,14 @@
+{
+  "regla_id": "ENTREGA_14_DIAS_CALENDARIO_V1",
+  "version": 1,
+  "origen": "SUPUESTO_DE_SIMULACION",
+  "descripcion": "Entrega completa dentro de los 14 días calendario posteriores a la fecha del pedido.",
+  "dias_compromiso": 14,
+  "tipo_dias": "CALENDARIO",
+  "fecha_base": "OrderDate",
+  "limite": "Final del día de PromisedDeliveryDate",
+  "alcance": "Todos los pedidos de la extracción",
+  "usa_shipdate_para_definir_promesa": false,
+  "reemplaza_duedate_original": false,
+  "nota": "No representa una política real de AdventureWorks. No permite calcular cumplimiento hasta disponer de entregas y una fecha de corte."
+}
